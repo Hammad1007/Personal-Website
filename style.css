@@ -9,3 +9,23 @@
     text-decoration: none;
 }
 
+/*Header in the body*/
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 25px 7%;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 120px;
+    height: auto;
+}
+
