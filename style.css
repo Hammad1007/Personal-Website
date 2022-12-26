@@ -7,9 +7,10 @@
     font-family: 'Courier New', Courier, monospace;
     list-style: none;
     text-decoration: none;
+
+
 }
 
-/*Header in the body*/
 header {
     position: fixed;
     width: 100%;
@@ -29,3 +30,17 @@ header {
     height: auto;
 }
 
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    color: #161616;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
