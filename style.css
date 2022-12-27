@@ -44,3 +44,37 @@ header {
     font-size: 1rem;
     padding: 10px 20px;
 }
+
+.navbar a::after {
+    content: '';
+    position:absolute;
+    width: 0%;
+    height: 2px;
+    background: #ef0454;
+    left: 0;
+    bottom: -4px;
+    transition: ease 0.42s; 
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+#menu-icon {
+    font-size: 30px;
+    color: #161616;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+.btn {
+    font-size: 14px;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: bolder;
+    height: 60px;
+    line-height: 60px;
+    background: #ef0454;
+    color: #fff;
+}
