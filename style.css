@@ -1,4 +1,4 @@
-/*CSS file*/
+/*Start of CSS file*/
 
 * {
     padding: 0;
@@ -7,8 +7,11 @@
     font-family: 'Courier New', Courier, monospace;
     list-style: none;
     text-decoration: none;
+
+
 }
 
+/*Header class which has all of the functionality*/
 header {
     position: fixed;
     width: 100%;
@@ -22,9 +25,10 @@ header {
     padding: 25px 7%;
 }
 
+/*Logo of the page*/
 .logo img {
     max-width: 100%;
-    width: 120px;
+    width: 70px;
     height: auto;
 }
 
@@ -66,6 +70,7 @@ header {
     display: none;
 }
 
+/*the button class which covers the download cv button*/
 .btn {
     font-size: 14px;
     display: inline-flex;
@@ -75,4 +80,30 @@ header {
     line-height: 60px;
     background: #ef0454;
     color: #fff;
+    border-radius: 15px;
+    padding: 0 38px;
+    text-transform: uppercase;
+    transition: all 0.34s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transform: translateY(-10px);
+
+}
+
+section {
+    padding: 0 16%;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: (1, 1fr);
+    align-items: center;
+    
 }
