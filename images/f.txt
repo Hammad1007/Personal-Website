@@ -1,0 +1,1 @@
+This folder has the images of the output at several instance of the code.
