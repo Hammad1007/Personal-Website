@@ -86,12 +86,13 @@ header {
     transition: all 0.34s;
 }
 
+/*the button hovers which covers the download cv button*/
 .btn:hover {
     opacity: 0.8;
     transform: translateY(-10px);
-
 }
 
+/*has all the info on the screen such as name, content*/
 section {
     padding: 0 16%;
 }
@@ -105,5 +106,53 @@ section {
     display: grid;
     grid-template-columns: (1, 1fr);
     align-items: center;
-    
+
+}
+
+.text {
+    padding-top: 70px;
+}
+
+.text .slide {
+    margin-bottom: 20px;
+}
+
+.text .one {
+    height: 40px;
+    padding: 0px 15px;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #ffbb01;
+    color: #fff;
+    display: inline-block;
+    margin-right: 22px;
+}
+
+.text .two {
+    font-size: 24px;
+    color: #161616;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.text h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: #161616;
+    line-height: 0.9;
+    margin: 0 0 8px;
+}
+
+.text h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #161616;
+    line-height: 1;
+    margin: 0 0 8px;
+}
+
+span {
+    color: #ac1b3d;
 }
