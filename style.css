@@ -7,8 +7,6 @@
     font-family: 'Courier New', Courier, monospace;
     list-style: none;
     text-decoration: none;
-
-
 }
 
 /*Header class which has all of the functionality*/
@@ -258,5 +256,42 @@ span {
         height: 50px;
         line-height: 50px;
         padding: 0 28px;
+    }
+    .btn2 {
+        margin-left: 20px;
+    }
+    .btn2 span i {
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+    }
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #ef0454;
+    }
+    .navbar a {
+        display: block;
+        padding: 1rem;
+        margin: 1.3rem;
+        color: #fff;
+        border-left: 2px solid #fff;
+    }
+    .navbar a:hover {
+        color: #161616;
+        background: #fff;
+    }
+}
+
+@media(max-width: 640px) {
+    section {
+        padding: 0 3%;
+    }
+    header {
+        padding: 14px 3%;
     }
 }
